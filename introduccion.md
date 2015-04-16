@@ -1,7 +1,7 @@
 ## 1.Introducción
 
 
-	La evolución de los robots ha sido muy beneficiosa para el desarrollo
+La evolución de los robots ha sido muy beneficiosa para el desarrollo
 de la industria. Ayudan mucho en los procesos que necesitan movimientos
 repetitivos y precisos. 
 
@@ -21,10 +21,10 @@ su adaptación a tareas muy diversas y medios de trabajo.
 Un robot industrial es, por su propia naturaleza, un nuevo tipo de maquinaria
  que proporciona una flexibilidad doble:
 
-    * Flexibilidad mecánica, proporcionada por estar constituido por un 
+   * Flexibilidad mecánica, proporcionada por estar constituido por un 
 sistema mecánico articulado que puede variar la posición de su extremo 
 libre en el espacio, adoptando además una orientación espacial deseada.
-    * Flexibilidad de programación, debida a que su configuración espacial
+   * Flexibilidad de programación, debida a que su configuración espacial
 está controlada por un computador, y por lo tanto puede ser cambiada 
 fácilmente con solo cambiar el programa.
 
