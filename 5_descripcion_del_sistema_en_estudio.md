@@ -38,14 +38,15 @@ A continuación se mostrarán las tecnologías comunmente usadas en cada proceso
 robótica y algunos software representativos de la industria a modo de orientación:
 
 * **Diseño:**
-    * CAD/CAM 3D (Solidworks)
+    * CAD/CAM 3D 
+        * Solidworks
 * **Modelación/Simulación:**
     * Método de elementos finitos, FEM
         * Abaqus, Ansys
     * Análisis numérico y simulación
         * Matlab/Simulink
     * Software especializado de simulación
-        * Webots, Gazebo, robotics toolbox Matlab,Microsof Robotics Developers      Studio)
+        * Webots, Gazebo, robotics toolbox Matlab, Microsof Robotics Developers Studio
 * **Fabricación de prototipos:**
     * Sensores (gran variedad de alternativas compatibles)
     * Actuadores que se pueden fabricar con técnicas modernas como
