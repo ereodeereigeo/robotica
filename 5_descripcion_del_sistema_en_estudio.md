@@ -66,3 +66,26 @@ robótica y algunos software representativos de la industria a modo de orientaci
         * Radiofrecuencia (Xbee, WI-FI); cableado (serial, buses de campo, ethernet)
 * **Pruebas:**
     * Deben someterse a estándares internacionales de calidad y seguridad
+
+
+Las grandes áreas en que dividiremos la investigación corresponde a:
+
+* **Escuelas:**
+    * Kits de desarrollo y robots educativos
+    * Software básico integrado con los kits
+    
+* **Academia y laboratorios de investigación:**
+    * Desde kits hasta prototipos desarrollados
+    * Software adecuado a las necesidades de prototipado e investigación
+    * Nuevas tecnologías e intersección con software industrial
+    
+* **Industria:**
+    * Robots específicos para producción
+    * Sub-áreas diversas como salud, sector automotriz, alimentos, producción en serie
+    * Tecnología más asentada, software costoso desarrollado por grandes empresas
+    * Ligado con cierta inversión en academia y centros de investigación
+    
+* **Ejército y Policía:**
+    * Drones, robots móviles, robots de DARPA (ej. ATLAS)
+    * Robots móviles antibombas, exoesqueletos para supersoldados
+    * Intersección con academia y centros de investigación, y en parte con la industria
