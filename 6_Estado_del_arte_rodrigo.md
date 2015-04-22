@@ -9,9 +9,9 @@ necesidad de economía en el nivel educacional que obligaba a los planteles
 educativos a tener laboratorios con pocos equipos para muchas personas, sin embargo 
 las soluciones actuales permiten que el conocimiento se distribuya equitativamente 
 mientras los alumnos en los laboratorios puedan trabajar con hardware de una a dos 
-personas [ref1](#Referencias) en vez de trabajar en grupos  de muchas personas sin 
+personas [ref1](##Referencias) en vez de trabajar en grupos  de muchas personas sin 
 poder experimentar lo suficiente, y debido a la accesibilidad de costo es posible 
-que los mismos estudiantes puedan comprar el software básico.[ref2](#Referencias)
+que los mismos estudiantes puedan comprar el hardware básico.[ref2](##Referencias)
 
 Existen dos modelos de hardware, el hardware cerrado y el hardware abierto. En 
 general ambas soluciones vienen con su propio software para programar el 
