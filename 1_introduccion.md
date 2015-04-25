@@ -43,7 +43,14 @@ Algunos de ellos son:
 - Ahorro de materia prima y energía.
 - Flexibilidad total.
 
-Como caso particular, están los robots móviles. La gran ventaja que presenta
-este tipo de robots es el hecho de que pueden desplazarse en cualquier 
-ambiente dado. Estos pueden desplazarse a través de un riel, con ruedas o 
-algún otro sistema que permita su movimiento por la superficie que se desea.
+En la robótica actual, existen diversas áreas de aplicación de robots, por ejemplo en el ámbito educacional,
+y académico, no solo el industrial, que cumplen diversas funciones, como por ejemplo los robots móviles
+que se investigan para variados tipos de aplicación, ya sea para enviarlos al espacios (Rovers) o para 
+cumplir una infinidad de misiones peligrosas para la humanidad en ambientes hostiles acá en la Tierra, como 
+rescate, y nó solo eso, la robótica tiende al desafío de reemplazar al humano en las tareas cotidianas
+como el aseo del hogar o el cuidado de las personas, últimamente se ha desarrollado un área denominado
+Robótica Suave o Soft Robotics, en donde el objetivo es utilizar materiales blandos o flexibles que permitan
+a los robots interactuar con el ser humano sin peligro.
+
+En este trabajo se mostrarán las perspectivas actuales de la robótica, dando una visión global del estado del arte
+y seleccionando ámbitos de interés para evaluar la factibilidad técnica y económica del software y hardware involucrado.
