@@ -150,39 +150,6 @@
   Url                      = {http://www.sciencedirect.com/science/article/pii/S0736584514000751}
 }
 
-@Electronic{,
-  Title                    = {ABB robotics},
-  Author                   = {http://new.abb.com/products/robotics/robot-selector},
-  Url                      = {http://new.abb.com/products/robotics/robot-selector},
-
-  Timestamp                = {2015.05.15}
-}
-
-@Electronic{,
-  Title                    = {KUKA},
-  Author                   = {http://www.kuka-robotics.com/es/products/industrial_robots/},
-  Url                      = {http://www.kuka-robotics.com/es/products/industrial_robots/},
-
-  Timestamp                = {2015.05.15}
-}
-
-@Electronic{,
-  Title                    = {Lego Mindstorm},
-  Author                   = {http://www.lego.com/pl-pl/mindstorms/?domainredir=mindstorms.lego.com},
-  Organization             = {Lego Mindstorm},
-  Url                      = {http://www.lego.com/pl-pl/mindstorms/?domainredir=mindstorms.lego.com},
-
-  Timestamp                = {2015.05.15}
-}
-
-@Electronic{,
-  Title                    = {Roboris},
-  Author                   = {http://www.roboris.cl/},
-  Url                      = {http://www.roboris.cl/},
-
-  Timestamp                = {2015.05.15}
-}
-
 @Article{4437755,
   Title                    = {Microsoft robotics studio: A technical introduction},
   Author                   = {Jackson, J.},
@@ -302,8 +269,37 @@
 }
 
 @Electronic{,
+  Title                    = {ABB robotics},
+  Url                      = {http://new.abb.com/products/robotics/robot-selector},
+
+  Timestamp                = {2015.05.15}
+}
+
+@Electronic{,
   Title                    = {http://ro-botica.com/},
   Url                      = {http://ro-botica.com/},
+
+  Timestamp                = {2015.05.15}
+}
+
+@Electronic{,
+  Title                    = {Lego Mindstorm},
+  Organization             = {Lego Mindstorm},
+  Url                      = {http://www.lego.com/pl-pl/mindstorms/?domainredir=mindstorms.lego.com},
+
+  Timestamp                = {2015.05.15}
+}
+
+@Electronic{,
+  Title                    = {Roboris},
+  Url                      = {http://www.roboris.cl/},
+
+  Timestamp                = {2015.05.15}
+}
+
+@Electronic{,
+  Title                    = {KUKA},
+  Url                      = {http://www.kuka-robotics.com/es/products/industrial_robots/},
 
   Timestamp                = {2015.05.15}
 }
