@@ -37,3 +37,22 @@ TCP/IP usando Google Protobufs.
 u OpenStack.
 * Posee herramientas de línea de comandos que facilitan el control de las simulaciones.
 
+#### Webots
+
+Es un entorno de desarrollo que se usa para modelar, programar y simular robots móviles.
+Permite modelar cada objeto y sus características como forma, textura, masa, fricción, etc.
+Posee una gran cantidad de sensores y actuadores para equipar cada robot.
+Es bastante usado en universidades y centros de investigación alrededor del mundo (hasta 1200).
+
+**Características Principales:**
+
+* Está disponible para Windows, Mac y Linux
+* Posee una versión educativa que es más barata aunque limitada.
+* Se puede programar con C/C++, Java, Python, Matlab, URBI y usar librerías externas como OpenCV.
+* Se puede realizar una interfaz con ROS (*Robot Operating System*)
+* Los modelos 3D se pueden diseñar en Solidworks, AutoCAD, Blender, 3D Studio Max, Sketchup, etc.
+* Librerías pre diseñadas de objetos como mesas y sillas.
+* Dispositivo de simulación de cámaras integradas con el robot
+* Se pueden crear y personalizar los motores utilizados.
+* Posee una ventana de simulación 3D interactiva con gráficos realistas
+* Y cuenta con librerías de robots populares como Nao y epuck.
