@@ -74,4 +74,20 @@ Tiene fines de investigación y es la base para la competencia RoboCUP rescate v
 * Es altamente extensible
 * El motor gráfico de Unreal Tournament está basado en PhysX que es desarrollado por Nvidia y posee mejores características y algoritmos optimizados en comparación con ODE.
 
+#### Microsoft Robotics Developer Studio
+
+Está orientado para una amplia gama de usuarios, desde amateurs hasta profesionales para el desarrollo de aplicaciones robóticas.
+
+**Caracterítsticas principales:**
+
+* Utiliza PhysX como simulador de alta fidelidad de física
+* Posee soporte para Kinect
+* Procesamiento paralelo
+* No permite crear sensores
+* Se programa prncipalmente en C++ o C# Además del lenguaje VLP (Visual Programming Languaje)
+* Existe una gran cantidad de robots y sensores
+* Solo puede se usado en Windows
+* Existen ambientes simulados prediseñados (Casa, fábrica, exteriores, urbana)
+* Es de licencia gratuita
+* No tiene soporte desde el 2012 y Microsoft canceló la división encargada de desarrollar el software.
 
