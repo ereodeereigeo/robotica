@@ -37,3 +37,57 @@ TCP/IP usando Google Protobufs.
 u OpenStack.
 * Posee herramientas de línea de comandos que facilitan el control de las simulaciones.
 
+#### Webots
+
+Es un entorno de desarrollo que se usa para modelar, programar y simular robots móviles.
+Permite modelar cada objeto y sus características como forma, textura, masa, fricción, etc.
+Posee una gran cantidad de sensores y actuadores para equipar cada robot.
+Es bastante usado en universidades y centros de investigación alrededor del mundo (hasta 1200).
+
+**Características Principales:**
+
+* Está disponible para Windows, Mac y Linux
+* Posee una versión educativa que es más barata aunque limitada.
+* Se puede programar con C/C++, Java, Python, Matlab, URBI y usar librerías externas como OpenCV.
+* Se puede realizar una interfaz con ROS (*Robot Operating System*)
+* Los modelos 3D se pueden diseñar en Solidworks, AutoCAD, Blender, 3D Studio Max, Sketchup, etc.
+* Librerías pre diseñadas de objetos como mesas y sillas.
+* Dispositivo de simulación de cámaras integradas con el robot
+* Se pueden crear y personalizar los motores utilizados.
+* Posee una ventana de simulación 3D interactiva con gráficos realistas
+* Y cuenta con librerías de robots populares como Nao y epuck.
+* Usa ODE para la simulación de la física del entorno.
+
+
+#### USARSim
+
+Es un simulador de alta fidelidad basado en el motor gráfico y físico del juego Unreal Tournament.
+Es Open Source sin embargo el motor gráfico del juego no lo es por lo que se debe pagar el valor del juego (USD$19.99).
+Tiene fines de investigación y es la base para la competencia RoboCUP rescate virtual con robots.
+
+**Características Principales:**
+
+* Soporta principalmente robots bípedos y móviles, sin embargo es posible añadir otros tipos de robots.
+* Los robots y objetos se crean en programas CAD 3D y los ambientes se crean usando una utilidad incluida.
+* Los robots pueden ser programados usando la utilidad UNREAL Script o controlados sobre una conexión de red usando el protocolo UDP implementado en USARSim.
+* Posee procesamiento multihilo
+* Es altamente extensible
+* El motor gráfico de Unreal Tournament está basado en PhysX que es desarrollado por Nvidia y posee mejores características y algoritmos optimizados en comparación con ODE.
+
+#### Microsoft Robotics Developer Studio
+
+Está orientado para una amplia gama de usuarios, desde amateurs hasta profesionales para el desarrollo de aplicaciones robóticas.
+
+**Caracterítsticas principales:**
+
+* Utiliza PhysX como simulador de alta fidelidad de física
+* Posee soporte para Kinect
+* Procesamiento paralelo
+* No permite crear sensores
+* Se programa prncipalmente en C++ o C# Además del lenguaje VLP (Visual Programming Languaje)
+* Existe una gran cantidad de robots y sensores
+* Solo puede se usado en Windows
+* Existen ambientes simulados prediseñados (Casa, fábrica, exteriores, urbana)
+* Es de licencia gratuita
+* No tiene soporte desde el 2012 y Microsoft canceló la división encargada de desarrollar el software.
+
