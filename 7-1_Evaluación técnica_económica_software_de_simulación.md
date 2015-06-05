@@ -57,3 +57,21 @@ Es bastante usado en universidades y centros de investigación alrededor del mun
 * Posee una ventana de simulación 3D interactiva con gráficos realistas
 * Y cuenta con librerías de robots populares como Nao y epuck.
 * Usa ODE para la simulación de la física del entorno.
+
+
+#### USARSim
+
+Es un simulador de alta fidelidad basado en el motor gráfico y físico del juego Unreal Tournament.
+Es Open Source sin embargo el motor gráfico del juego no lo es por lo que se debe pagar el valor del juego (USD$19.99).
+Tiene fines de investigación y es la base para la competencia RoboCUP rescate virtual con robots.
+
+**Características Principales:**
+
+* Soporta principalmente robots bípedos y móviles, sin embargo es posible añadir otros tipos de robots.
+* Los robots y objetos se crean en programas CAD 3D y los ambientes se crean usando una utilidad incluida.
+* Los robots pueden ser programados usando la utilidad UNREAL Script o controlados sobre una conexión de red usando el protocolo UDP implementado en USARSim.
+* Posee procesamiento multihilo
+* Es altamente extensible
+* El motor gráfico de Unreal Tournament está basado en PhysX que es desarrollado por Nvidia y posee mejores características y algoritmos optimizados en comparación con ODE.
+
+
