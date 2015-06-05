@@ -1,0 +1,886 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title></title>
+	<meta name="generator" content="LibreOffice 4.2.7.2 (Linux)">
+	<meta name="author" content="Andres Muñoz Herrera">
+	<meta name="created" content="20150401;3800000000000">
+	<meta name="changedby" content="Andres Muñoz Herrera">
+	<meta name="changed" content="20150421;205800000000000">
+	<meta name="AppVersion" content="14.0000">
+	<meta name="DocSecurity" content="0">
+	<meta name="HyperlinksChanged" content="false">
+	<meta name="LinksUpToDate" content="false">
+	<meta name="ScaleCrop" content="false">
+	<meta name="ShareDoc" content="false">
+	<style type="text/css">
+	<!--
+		@page { margin-left: 3cm; margin-right: 3cm; margin-top: 2.5cm; margin-bottom: 2.5cm }
+		p { margin-bottom: 0.25cm; direction: ltr; line-height: 120%; text-align: left; widows: 2; orphans: 2 }
+		h2 { margin-top: 0cm; margin-bottom: 0.35cm; direction: ltr; text-align: left; widows: 2; orphans: 2; page-break-after: auto }
+		h2.western { font-family: "Calibri", serif; font-size: 11pt; font-weight: normal }
+		h2.cjk { font-family: "Droid Sans Fallback"; font-size: 11pt; font-weight: normal }
+		h2.ctl { font-family: ; font-size: 11pt; font-weight: normal }
+		a:link { color: #0000ff; so-language: zxx }
+	-->
+	</style>
+</head>
+<body lang="es-CL" link="#0000ff" dir="ltr">
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><font face="Times New Roman, serif">Estado
+del Arte y Evaluación Técnica-Económica de Hardware y Software
+para Robots</font></p>
+<ol>
+	<li><p align="justify" style="margin-bottom: 0.35cm; line-height: 115%">
+	<font face="Times New Roman, serif">Introducción</font></p>
+</ol>
+<p align="justify" style="margin-left: 0.64cm; margin-bottom: 0.35cm; line-height: 115%">
+<font face="Times New Roman, serif">La evolución de los robots ha
+sido muy beneficiosa para el desarrollo de la industria. Ayudan mucho
+en los procesos que necesitan movimientos repetitivos y precisos.
+Además, los robots no necesitan un descanso como si lo necesitan los
+humanos, así que el trabajo que puede realizar un robot es muy
+superior al que puede realizar una persona.</font></p>
+<p align="justify" style="margin-left: 0.64cm; margin-bottom: 0.49cm; line-height: 115%">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><font size="2" style="font-size: 11pt">Los
+robots industriales nacieron de la unión de una estructura mecánica
+articulada y de un sistema electrónico de control en el que se
+integra un computador. Esto permite la programación y control de los
+movimientos a efectuar por el robot y la memorización de las
+diversas secuencias de trabajo, por lo que le da al robot una gran
+flexibilidad y posibilita su adaptación a tareas muy diversas y
+medios de trabajo.</font></font></font></p>
+<p align="justify" style="margin-left: 0.64cm; margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%">
+<font face="Times New Roman, serif">Un robot industrial es, por su
+propia naturaleza, un nuevo tipo de maquinaria que proporciona una
+flexibilidad doble:</font></p>
+<p align="justify" style="margin-left: 0.64cm; margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%">
+<font face="Times New Roman, serif">a) Flexibilidad mecánica,
+proporcionada por estar constituido por un sistema mecánico
+articulado que puede variar la posición de su extremo libre en el
+espacio, adoptando además una orientación espacial deseada.</font></p>
+<p align="justify" style="margin-left: 0.64cm; margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%">
+<font face="Times New Roman, serif">b) Flexibilidad de programación,
+debida a que su configuración espacial está controlada por un
+computador, y por lo tanto puede ser cambiada fácilmente con solo
+cambiar el programa.</font></p>
+<p align="justify" style="margin-left: 0.64cm; margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%">
+<font face="Times New Roman, serif">Hay muchos beneficios en el uso
+de los robots industriales.  Algunos de ellos son:</font></p>
+<ul>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%">
+	<font face="Times New Roman, serif">Reducción de la labor.</font></p>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%">
+	<font face="Times New Roman, serif">Incremento de utilización de
+	las máquinas.</font></p>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%">
+	<font face="Times New Roman, serif">Flexibilidad productiva.</font></p>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%">
+	<font face="Times New Roman, serif">Mejoramiento de la calidad.</font></p>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%">
+	<font face="Times New Roman, serif">Disminución de pasos en el
+	proceso de producción.</font></p>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%">
+	<font face="Times New Roman, serif">Mejoramiento de las condiciones
+	de trabajo, reducción de riesgos personales.</font></p>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%">
+	<font face="Times New Roman, serif">Mayor productividad.</font></p>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%">
+	<font face="Times New Roman, serif">Ahorro de materia prima y
+	energía.</font></p>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%">
+	<font face="Times New Roman, serif">Flexibilidad total.</font></p>
+</ul>
+<p align="justify" style="margin-left: 0.64cm; margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 115%">
+<font face="Times New Roman, serif">Como caso particular, están los
+robots móviles. La gran ventaja que presenta este tipo de robots es
+el hecho de que pueden desplazarse en cualquier ambiente dado. Estos
+pueden desplazarse a través de un riel, con ruedas o algún otro
+sistema que permita su movimiento por la superficie que se desea. </font>
+</p>
+<p align="justify" style="margin-bottom: 0cm; background: #ffffff; line-height: 100%">
+<font color="#000000"><font face="Times New Roman, serif"><br></font></font><br>
+</p>
+<ol start="2">
+	<li><p align="justify" style="margin-bottom: 0.35cm; line-height: 115%">
+	<font face="Times New Roman, serif">Objetivos</font></p>
+	<ol>
+		<li><p align="justify" style="margin-bottom: 0.35cm; line-height: 115%">
+		<font face="Times New Roman, serif">Objetivo General</font></p>
+	</ol>
+</ol>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<font face="Times New Roman, serif">Realizar un estudio del estado
+del arte y una evaluación técnica-económica de hardware y software
+para robots, centrados principalmente en los robots industriales y
+robots móviles.</font></p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<ol>
+	<ol>
+		<li><p align="justify" style="margin-bottom: 0.35cm; line-height: 115%">
+		<font face="Times New Roman, serif">Objetivos Específicos</font></p>
+	</ol>
+</ol>
+<ul>
+	<li><p align="justify" style="margin-bottom: 0.35cm; line-height: 115%">
+	<font face="Times New Roman, serif">Estudiar la evolución de los
+	robots, en especial robots, especialmente industriales y móviles.</font></p>
+	<li><p align="justify" style="margin-bottom: 0.35cm; line-height: 115%">
+	<font face="Times New Roman, serif">Mostrar el estado actual de
+	robots, especialmente de los robots industriales y móviles.</font></p>
+	<li><p align="justify" style="margin-bottom: 0.35cm; line-height: 115%">
+	<font face="Times New Roman, serif">Evaluar el mejor tipo de
+	dispositivos para una industria, tanto técnicamente como
+	económicamente</font></p>
+</ul>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 1.4cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<ol start="3">
+	<li><p align="justify" style="margin-bottom: 0.35cm; line-height: 115%">
+	<font face="Times New Roman, serif">Necesidad del tema de estudio</font></p>
+</ol>
+<p align="justify" style="margin-left: 0.64cm; margin-bottom: 0.35cm; line-height: 115%">
+<font face="Times New Roman, serif">En la actualidad, los avances de
+la robótica han sido muy importantes. El como un médico puede
+realizar hoy en día una operación es muestra de ello. El médico
+puede realizar una operación a través de un robot controlado por él
+mismo, pero con una precisión mucho mayor a la que puede tener con
+el pulso de su mano, perfeccionando todos sus movimientos, además de
+ser un sistema menos invasivo para el paciente. </font>
+</p>
+<p align="justify" style="margin-left: 0.64cm; margin-bottom: 0.35cm; line-height: 115%">
+<font face="Times New Roman, serif">Este ejemplo sirve para saber qué
+tan avanzada está la robótica actual y cuáles serían los pasos a
+seguir. El saber en qué punto se está, da pie para dar los
+siguientes pasos. </font>
+</p>
+<p align="justify" style="margin-left: 0.64cm; margin-bottom: 0.35cm; line-height: 115%">
+<font face="Times New Roman, serif">Esto, claro está, en el hecho de
+que no se puede empezar de más atrás de lo que ya se ha logrado.
+Hay realizar el estudio del estado del arte, se comprenderá que se
+ha logrado hasta ahora. </font>
+</p>
+<p align="justify" style="margin-left: 0.64cm; margin-bottom: 0.35cm; line-height: 115%">
+<font face="Times New Roman, serif">Como también se realizará una
+evaluación técnico-económica, se podrá tener un conocimiento
+sobre las ofertas del mercado actual de robots útiles para las
+necesidades de la industria y de los estudiantes de ingeniería.</font></p>
+<p align="justify" style="margin-left: 0.64cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-left: 0.64cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<ol start="4">
+	<li><p align="justify" style="margin-bottom: 0.35cm; line-height: 115%">
+	<font face="Times New Roman, serif">Aportes del Trabajo</font></p>
+</ol>
+<p align="justify" style="margin-left: 0.64cm; margin-bottom: 0.35cm; line-height: 115%">
+<br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<ol start="5">
+	<li><p align="justify" style="margin-bottom: 0.35cm; line-height: 115%">
+	<font face="Times New Roman, serif">Descripción del Sistema en
+	Estudio</font></p>
+</ol>
+<p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<font face="Times New Roman, serif">La estructura de comparación de
+este estudio comprende distintos niveles para realizar el estado del
+arte y la evaluación técnico-económica lo más útil y clara
+dependiendo de las necesidades que se busca satisfacer.</font></p>
+<p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<font face="Times New Roman, serif">En primer lugar debe destacarse
+los procesos más importantes asociados a la robótica y que son
+transversales a las áreas, aunque la relevancia en cada área es la
+que varía, es decir, existen áreas como la educativa en dónde la
+relevancia de la modelación es menor que en otras áreas.</font></p>
+<p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<font face="Times New Roman, serif"><i>Estos procesos son:</i></font></p>
+<ul>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+	<font face="Times New Roman, serif">Diseño</font></p>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+	<font face="Times New Roman, serif">Modelación/Simulación</font></p>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+	<font face="Times New Roman, serif">Fabricación de prototipo </font>
+	</p>
+	<ul>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Sensores</font></p>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Actuadores</font></p>
+	</ul>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+	<font face="Times New Roman, serif">Sistema de control y monitoreo</font></p>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+	<font face="Times New Roman, serif">Pruebas</font></p>
+</ul>
+<p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<font face="Times New Roman, serif">Estos procesos no se realizan una
+vez, sino que es un procedimiento cíclico hasta el producto final,
+existiendo realimentación entre pares de procesos dinámicamente.</font></p>
+<p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<font face="Times New Roman, serif">Para cada proceso existen
+herramientas de software y/o hardware en el mercado que agilizan el
+proceso y por ende se consideran última tecnología ya que
+evolucionan o se desarrollan continuamente, y a medida que la base de
+usuarios crece, se genera innovación y las mejores herramientas para
+cada área se ganan un nombre, utilizándose progresivamente en los
+estudios, tesis y papers, además de obtener amplia difusión por
+medio de tutoriales y documentación a través de Internet.</font></p>
+<p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<font face="Times New Roman, serif">A continuación se mostrarán las
+tecnologías comúnmente usadas en cada proceso de la robótica y
+algunos software representativos de la industria a modo de
+orientación:</font></p>
+<ul>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+	<font face="Times New Roman, serif"><b>Diseño:</b></font><font face="Times New Roman, serif">
+	</font>
+	</p>
+	<ul>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">CAD/CAM 3D </font>
+		</p>
+		<ul>
+			<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+			<font face="Times New Roman, serif">Solidworks</font></p>
+		</ul>
+	</ul>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+	<font face="Times New Roman, serif"><b>Modelación/Simulación:</b></font><font face="Times New Roman, serif">
+	</font>
+	</p>
+	<ul>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Método de elementos finitos,
+		FEM </font>
+		</p>
+		<ul>
+			<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+			<font face="Times New Roman, serif">Abaqus, Ansys</font></p>
+		</ul>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Análisis numérico y
+		simulación </font>
+		</p>
+		<ul>
+			<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+			<font face="Times New Roman, serif">Matlab/Simulink</font></p>
+		</ul>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Software especializado de
+		simulación </font>
+		</p>
+		<ul>
+			<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+			<font face="Times New Roman, serif">Webots, Gazebo, robotics
+			toolbox Matlab, Microsof Robotics Developers Studio</font></p>
+		</ul>
+	</ul>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+	<font face="Times New Roman, serif"><b>Fabricación de prototipos:</b></font><font face="Times New Roman, serif">
+	</font>
+	</p>
+	<ul>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Sensores (gran variedad de
+		alternativas compatibles)</font></p>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Actuadores que se pueden
+		fabricar con técnicas modernas como </font>
+		</p>
+		<ul>
+			<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+			<font face="Times New Roman, serif">Impresión 3D (Makerbot,
+			Reprap)</font></p>
+			<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+			<font face="Times New Roman, serif">CNC</font></p>
+			<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+			</p>
+		</ul>
+	</ul>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+	<font face="Times New Roman, serif"><b>Sistema de control y
+	monitoreo:</b></font><font face="Times New Roman, serif"> </font>
+	</p>
+	<ul>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Microcontroladores </font>
+		</p>
+		<ul>
+			<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+			<font face="Times New Roman, serif">PIC, AVR, TI</font></p>
+		</ul>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Placas integradas y kits </font>
+		</p>
+		<ul>
+			<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+			<font face="Times New Roman, serif">Arduino</font></p>
+			<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+			<font face="Times New Roman, serif">Parallax</font></p>
+		</ul>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">MiniPc </font>
+		</p>
+		<ul>
+			<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+			<font face="Times New Roman, serif">Raspberry Pi, BeagleBone</font></p>
+		</ul>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Sistemas Operativos para Robots
+		(middleware) </font>
+		</p>
+		<ul>
+			<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+			<font face="Times New Roman, serif">ROS (Robot Operating System)</font></p>
+		</ul>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Protocolos de comunicacion y
+		enlace </font>
+		</p>
+		<ul>
+			<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+			<font face="Times New Roman, serif">Radiofrecuencia (Xbee, WI-FI);
+			cableado (serial, buses de campo, ethernet)</font></p>
+		</ul>
+	</ul>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+	<font face="Times New Roman, serif"><b>Pruebas:</b></font><font face="Times New Roman, serif">
+	</font>
+	</p>
+	<ul>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Deben someterse a estándares
+		internacionales de calidad y seguridad</font></p>
+	</ul>
+</ul>
+<p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<font face="Times New Roman, serif">Las grandes áreas en que
+dividiremos la investigación corresponde a:</font></p>
+<ul>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+	<font face="Times New Roman, serif"><b>Escuelas:</b></font></p>
+	<ul>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Kits de desarrollo y robots
+		educativos</font></p>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Software básico integrado con
+		los kits</font></p>
+	</ul>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+	<font face="Times New Roman, serif"><b>Academia y laboratorios de
+	investigación:</b></font></p>
+	<ul>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Desde kits hasta prototipos
+		desarrollados</font></p>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Software adecuado a las
+		necesidades de prototipado e investigación</font></p>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Nuevas tecnologías e
+		intersección con software industrial</font></p>
+	</ul>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+	<font face="Times New Roman, serif"><b>Industria:</b></font></p>
+	<ul>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Robots específicos para
+		producción</font></p>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Sub-áreas diversas como salud,
+		sector automotriz, alimentos, producción en serie</font></p>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Tecnología más asentada,
+		software costoso desarrollado por grandes empresas</font></p>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Ligado con cierta inversión en
+		academia y centros de investigación</font></p>
+	</ul>
+	<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+	<font face="Times New Roman, serif"><b>Ejército y Policía:</b></font></p>
+	<ul>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Drones, robots móviles, robots
+		de DARPA (ej. ATLAS)</font></p>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Robots móviles antibombas,
+		exoesqueletos para supersoldados</font></p>
+		<li><p align="justify" style="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+		<font face="Times New Roman, serif">Intersección con academia y
+		centros de investigación, y en parte con la industria</font></p>
+	</ul>
+</ul>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<ol start="6">
+	<li><p align="justify" style="margin-bottom: 0.35cm; line-height: 115%">
+	<font face="Times New Roman, serif">Estado del Arte</font></p>
+</ol>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">La
+evolución de la robótica en general ha sido muy explosiva, sobre
+todo en el Siglo XX. El comienzo de la automatización a través de
+los robots ha sido de mucha ayuda para la producción en masa.
+Saltándose varios años de desarrollo, se podría decir que los
+progenitores más directos de los robots son los telemanipuladores.
+En 1948, R. C. Goertz desarrolló en el </font><font face="Times New Roman, serif"><i>Argonne
+Nacional Laboratory </i></font><font face="Times New Roman, serif">el
+primer manipulador, con el objetivo de manipular elementos
+radiactivos sin riesgo para el operador. La industria nuclear,
+submarina y espacial fueron las más interesadas en utilizar este
+tipo de sistema.</font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">Más
+adelante, el reemplazar al operador por un programa de ordenador que
+pudiera controlar los movimientos del manipulador dio paso al
+concepto de robot. La primera patente de un dispositivo robótico fue
+solicitada en 1954 por el británico C.E. Kenward. Pero fue George C.
+Devol, un ingeniero norteamericano, el que estableció las bases del
+robot industrial moderno.</font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">En
+1956, Joseph F. Engelberger y Devol comenzaron a trabajar en la
+utilización industrial de sus máquinas, fundando la </font><font face="Times New Roman, serif"><i>Consolidated
+Controls Corporation</i></font><font face="Times New Roman, serif">.
+Más tarde se convertiría en </font><font face="Times New Roman, serif"><i>Unimation
+(Universal Automation)</i></font><font face="Times New Roman, serif">,
+instalando su primera máquina Unimate en la General Motors de
+Trenton, Nueva Jersey, en 1960. Se produjo un </font><font face="Times New Roman, serif"><i>boom
+</i></font><font face="Times New Roman, serif">de la fábrica del
+futuro, aunque en su primer intento el resultado y la viabilidad
+económica fueron desastrosos.</font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">Saltando
+ya a los años 70’s, se logra el poder controlar a un robot a
+través de un computador, y a mitad de esa década, la implementación
+de los microcontroladores, que mejoran considerablemente las
+características del robot.</font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">Ya
+en la década de los 80’s, la investigación potencia la creación
+de los robots inteligentes</font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">Como
+se puede observar, en alrededor de 30 años, la evolución de los
+robots ha sido tan importante que estos ya tienen importancia en casi
+todas las áreas productivas.</font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 100%"><font face="Times New Roman, serif">Ahora
+se mostraran las clasificaciones de robots y su estado actual,
+centrándose principalmente en robots industriales y móviles</font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">Los
+robots industriales, también llamados manipuladores, están
+destinados a realizar de forma automática determinados procesos de
+fabricación o manipulación. Se utilizan principalmente en la
+fabricación industrial. Este tipo de robot es el más utilizado en
+Estados Unidos y Japón, siendo estos dos países los líderes en su
+fabricación y utilización.</font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">En
+años finales de la década de los 60’s y principios de los 70’s
+se crean departamentos de investigación y se diseñaron los primeros
+robots móviles con un cierto grado de autonomía, se puso este
+nombre en base al brazo manipulador por Víctor Scheinman, para así
+dar a conocer el robot manipulador más famoso, el robot “Puma”.</font></p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 100%"><font face="Times New Roman, serif">Dando
+un ejemplo del robot Puma, se tiene el Puma de la serie 500. Este
+robot es un brazo articulado con 6 grados de libertad que le permiten
+posicionar y orientar una herramienta final. De manera más
+específica, las 3 primeras articulaciones (sistema
+Hombro-Codo-Muñeca) posicionan en el espacio el grupo formado por
+las 3 últimas, que son las que orientan el efector. <br>Este robot
+utiliza la representación de Denavit-Hartenberg para sus
+movimientos.</font></p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 100%"><font face="Times New Roman, serif">El
+robot Puma, sin embargo, es solo un ejemplo dentro de los robots
+manipuladores. También tenemos otras empresas productoras de robots
+manipuladores que llevan sus cualidades al máximo. </font>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 100%"><font face="Times New Roman, serif">Ejemplo
+de ellos son los robots de la empresa KUKA, que se especializa en la
+robótica y automatización. Un ejemplo del gran desarrollo de estos
+robots automatizados es el partido de tenis de mesa de uno de sus
+modelos contra un jugador profesional. </font>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 100%"><font face="Times New Roman, serif">La
+empresa ABB también se especializa en esta clase de manipuladores.  </font>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 100%"><font face="Times New Roman, serif">En
+cuanto a los últimos desarrollos tecnológicos de los robots
+industriales tenemos varios ejemplos, que aun aún están en
+desarrollo, ya son partes de los nuevos avances.</font></p>
+<ul>
+	<li><p align="justify" style="margin-bottom: 0.35cm; line-height: 100%">
+	<font face="Times New Roman, serif">Los robots redundantes, que
+	poseen más de 6 grados de libertad. Estos robots fueron creados
+	para trabajar en lugares de muy difícil acceso. </font>
+	</p>
+	<li><p align="justify" style="margin-bottom: 0.35cm; line-height: 100%">
+	<font face="Times New Roman, serif">Robots flexibles, que son útiles
+	cuando se necesite un gran alcance y bajo peso de la estructura. 
+	Ejemplo de este tipo de robots es uno creado en la Universidad de
+	Harvard, que se inspira en animales invertebrados. El </font><font face="Times New Roman, serif">prototipo
+	de robot </font><font face="Times New Roman, serif"><span style="font-weight: normal">es
+	capaz de gatear,</span></font><b><font face="Times New Roman, serif">
+	</font></b><font face="Times New Roman, serif"><span style="font-weight: normal">cambiar
+	su forma de andar y sortear obstáculos</span></font><font face="Times New Roman, serif">
+	ejecutando una serie de movimientos coordinados.</font></p>
+	<li><p align="justify" style="margin-bottom: 0cm; line-height: 100%">
+	<font face="Times New Roman, serif">Robots manipuladores
+	antropomorfos (generalmente imitando la forma de la mano humana). Su
+	aplicación se aleja de la industria tradicional y se acerca más a
+	la creación de prótesis para la investigación médica.</font></p>
+</ul>
+<p align="justify" style="margin-left: 1.27cm; margin-bottom: 0cm; line-height: 100%">
+<br>
+</p>
+<p align="justify" style="margin-left: 1.27cm; margin-bottom: 0cm; line-height: 100%">
+<br>
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">Robots
+móviles. Los robots móviles son el tipo de robots que se pueden
+desplazar por tierra, aire, agua y en el espacio.</font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">Gracias
+a sus sensores y su programación, son capaces de guiarse por el
+entorno autónomamente, pero sin embargo, no es de extrañar que su
+funcionamiento esté monitorizado por seres humanos o incluso
+teledirigido. En este último caso, el robot mantiene una
+comunicación constante con el operador, ya sea por cable o
+inalámbricamente. Su morfología es variable dependiendo del entorno
+y de la tarea a realizar</font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">El
+primer robot móvil que fue diseñado fue el Shakey, desarrollado en
+el SRI. Era una plataforma móvil independiente controlada por visión
+mediante una cámara y dotada con un detector táctil. Este robot fue
+el punto de inflexión para la investigación y diseño de robots
+móviles creciera de gran manera.</font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">A
+principios de la década del setenta, el robot Newt fue desarrollado
+por Ralph Hollis. En el Jet Propulsion Laboratory (JPL) se desarrolló
+el Lunar Rover [Thompson, 1977], diseñado particularmente para la
+exploración planetaria. A finales de esa década, Moravec desarrolló
+el robot Stanford cart, capaz de seguir una trayectoria delimitada
+por una línea establecida en una</font><font face="Times New Roman, serif"><b>
+</b></font><font face="Times New Roman, serif">superficie. En 1983,
+el robot Raibert fue desarrollado en el MIT, un robot de una sola
+pata diseñado para estudiar la estabilidad de éstos sistemas. A
+principios de la década del noventa, se desarrolló un robot
+“uniciclo”  (una sola rueda, similar a la de una bicicleta) en el
+MIT.</font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">A
+pesar de ser algo “toscos”, los robots móviles han avanzado de
+tal forma que pueden desplazarse prácticamente por cualquier
+superficie, además de poder volar y sumergirse en el agua.</font></p>
+<h2 class="western" align="justify"><font size="2" style="font-size: 11pt"><span style="font-weight: normal">En
+el ámbito terrestre, se pueden definir 3 tipos de máquinas: ruedas
+para superficies lisas, aunque con una cantidad adecuada de ruedas
+más un buen sistema de amortiguación también pueden desplazarse
+por terrenos irregulares, como el robot Rover de exploración
+espacial; las orugas para superficies irregulares. Por ejemplo,  el
+robot Fletch  del ámbito militar, que es utilizado para remover las
+pequeñas bombas y granadas de la munición antitanque que no
+explotan en el campo de batalla. Aunque al igual que en caso
+anterior, no solo quedan restringidos a este tipo de superficie; y
+finalmente los robots con patas, para superficies muy irregulares,
+como el robot Spot de Google. Este robot puede caminar prácticamente
+por cualquier superficie sin perder la estabilidad. </span></font>
+</h2>
+<h2 class="western" align="justify"><font size="2" style="font-size: 11pt"><span style="font-weight: normal">Este
+último ejemplo, del robot Spot, es una muestra del avance de los
+robots móviles. Está diseñado principalmente para búsqueda y
+rescate, cartografía o acceder a zonas de desastre. Por lo general,
+estas son misiones realizadas por militares, así que perfectamente
+se puede clasificar a este modelo como un robot del tipo militar.</span></font></h2>
+<h2 class="western" align="justify" style="font-weight: normal"><br><br>
+</h2>
+<h2 class="western" align="justify"><font size="2" style="font-size: 11pt"><span style="font-weight: normal">Los
+robots aéreos pueden ser catalogados como robots de investigación o
+militares. Esto porque, por ejemplo, en misiones militares se
+utilizan robots controlados a distancia o autónomos para realizar
+misiones de ataque, defensa, espionaje  o rescate. Estos robots no
+tripulados son los famosos Drones. En cuanto a la investigación,
+principalmente se utilizan los robots controlados, ya que con esa
+característica se puede saber exactamente lo que se quiere
+investigar. </span></font>
+</h2>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">Los
+robots aéreos  se pueden desplazar con sistemas de hélices o
+turbinas, como los tradicionales aviones o helicópteros, o también
+con ala, imitando a los animales con capacidad de volar,
+especialmente a los insectos</font><font face="Times New Roman, serif">.
+Dentro de estos últimos, está el proyecto </font><font face="Times New Roman, serif">Proyecto
+MFI (Micromechanical Flying Insect) de la U</font><font face="Times New Roman, serif">niversidad
+de Berkeley, en colaboración con el </font><font face="Times New Roman, serif"><i>Center
+for InformationTechnology Research in the Interest of Society
+(CITRIS)</i></font><font face="Times New Roman, serif">. Se ha
+llevado a cabo un proyecto cuyo objetivo es crear un pequeño robot
+de 25 mm. de longitud, capaz de mantenerse en el aire de forma
+autónoma, basándose en principios biomiméticos.</font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">Durante
+los primeros 3 años del proyecto, los esfuerzos se centraron en
+comprender la aerodinámica de los sistemas de vuelo hasta conseguir
+el primer prototipo, y a partir de ahí, se trabaja en la
+miniaturización y en añadir nuevos sensores o dispositivos.</font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">También
+están  las </font><font face="Times New Roman, serif">Colonias de
+robots voladores, desarrollados por  Defense Science and Technologie
+Organization, DSTO. </font><font face="Times New Roman, serif">Como
+parte del Departamento de Defensa del gobierno de Australia,
+estegrupo ha trabajado en el desarrollo de pequeños robots voladores
+capaces de realizar una misión de reconocimiento de forma autónoma
+y coordinada entre ellos mismos.</font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br>
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">En
+cuanto a investigación, además de los robots aéreos y terrestres,
+están los robots acuáticos. Como estos robots se desplazan por el
+agua, tienen 6 grados de libertad, al igual que los aéreos. Estos
+robots pueden ser totalmente autónomos y no requerir de una
+comunicación continua con la estación, pero en caso contrario,
+puede haber problemas derivados de la comunicación. En algunos
+casos, el robot se comunica de forma alámbrica (lo que proporciona
+una forma rápida de recuperar el robot en caso de fallo), mientras
+que en otros, se puede utilizar el sonido por medio de boyas
+introducidas en el agua, debido a que el sonido se propaga mejor en
+este medio.</font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">Están
+los robots de exploración marina. El </font><font face="Times New Roman, serif">Institut
+Français de Recherche pour L'exploitation de la Mer (IFremer) lleva
+</font><font face="Times New Roman, serif">trabajando varios años en
+robots submarinos para el estudio geográfico de los fondos marinos,
+así como para el estudio del hábitat marino, y ha desarrollado
+varios modelos de robots. Como ejemplo, el robot </font><font face="Times New Roman, serif"><i>SAR
+(Système Acoustique Remorqué - towed acousticsystem) c</i></font><font face="Times New Roman, serif">ontiene
+un conjunto de sensores geofísicos de alta resolución para el
+estudio de la estructura de los fondos marinos, y es capaz de
+sumergirse a 6.000 metros de profundidad.</font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">Están
+también los laboratorios AUV, formando parte del MIT,  que trabajan
+en el desarrollo de vehículos submarinos y su aplicación para
+tareas de oceanografía. Desarrollaron su primer vehículo a primeros
+de los años 90, llamado </font><font face="Times New Roman, serif"><i>Odyssey
+I</i></font><font face="Times New Roman, serif">, y actualmente
+disponen de más de una decena de vehículos, algunos de ellos en
+diferentes versiones.</font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">Y
+también está el proyecto AQUA. Su objetivo es el diseño de un
+robot anfibio totalmente autónomo, que sea capaz de explorar los
+fondos marinos y recoger información, minimizando el impacto en la
+vida marina. Contiene un sistema avanzado de visión y sus 6 aletas,
+controladas</font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="Times New Roman, serif">independientemente,
+le proporcionan una gran maniobrabilidad en el agua para poder
+desplazarse a través de los corales.</font></p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><br><br>
+</p>
+<ol start="7">
+	<li><p align="justify" style="margin-bottom: 0.35cm; line-height: 115%"><a name="_GoBack"></a>
+	<font face="Times New Roman, serif">Conclusiones</font></p>
+	<li><p align="justify" style="margin-bottom: 0.35cm; line-height: 115%">
+	<font face="Times New Roman, serif">Referencias Bibliográficas</font></p>
+	<li><p align="justify" style="margin-bottom: 0.35cm; line-height: 115%">
+	<font face="Times New Roman, serif">Carta Gantt</font></p>
+</ol>
+</body>
+</html>
