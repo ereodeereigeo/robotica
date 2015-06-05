@@ -56,3 +56,4 @@ Es bastante usado en universidades y centros de investigación alrededor del mun
 * Se pueden crear y personalizar los motores utilizados.
 * Posee una ventana de simulación 3D interactiva con gráficos realistas
 * Y cuenta con librerías de robots populares como Nao y epuck.
+* Usa ODE para la simulación de la física del entorno.
